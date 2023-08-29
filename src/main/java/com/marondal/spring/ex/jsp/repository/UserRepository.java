@@ -13,6 +13,10 @@ public interface UserRepository {
 			, @Param("birthday") String birthday
 			, @Param("email") String email);
 	
+	public int insertUserByObject(User user);
+	
 	public User selectLastUser();
+	
+	
 
 }

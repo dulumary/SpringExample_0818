@@ -11,7 +11,7 @@
 	<h1>사용자 정보</h1>
 	
 	<h2>${result.name }</h2>
-	
+	<h3>id : ${result.id }</h3>
 	<h3>email : ${result.email }</h3>
 	<h3>생년월일 : ${result.yyyymmdd }</h3>
 	<h3>자기소개 : ${result.introduce }</h3>
